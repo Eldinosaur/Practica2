@@ -30,6 +30,21 @@ class MainActivity : AppCompatActivity() {
             Pokemon("Yvasour","https://cdn.traction.one/pokedex/pokemon/2.png"),
             Pokemon("Venesour","https://cdn.traction.one/pokedex/pokemon/3.png"),
             Pokemon("Charmander","https://cdn.traction.one/pokedex/pokemon/4.png"),
+            Pokemon("Charmeleon","https://cdn.traction.one/pokedex/pokemon/5.png"),
+            Pokemon("Bulbasour","https://cdn.traction.one/pokedex/pokemon/1.png"),
+            Pokemon("Yvasour","https://cdn.traction.one/pokedex/pokemon/2.png"),
+            Pokemon("Venesour","https://cdn.traction.one/pokedex/pokemon/3.png"),
+            Pokemon("Charmander","https://cdn.traction.one/pokedex/pokemon/4.png"),
+            Pokemon("Charmeleon","https://cdn.traction.one/pokedex/pokemon/5.png"),
+            Pokemon("Bulbasour","https://cdn.traction.one/pokedex/pokemon/1.png"),
+            Pokemon("Yvasour","https://cdn.traction.one/pokedex/pokemon/2.png"),
+            Pokemon("Venesour","https://cdn.traction.one/pokedex/pokemon/3.png"),
+            Pokemon("Charmander","https://cdn.traction.one/pokedex/pokemon/4.png"),
+            Pokemon("Charmeleon","https://cdn.traction.one/pokedex/pokemon/5.png"),
+            Pokemon("Bulbasour","https://cdn.traction.one/pokedex/pokemon/1.png"),
+            Pokemon("Yvasour","https://cdn.traction.one/pokedex/pokemon/2.png"),
+            Pokemon("Venesour","https://cdn.traction.one/pokedex/pokemon/3.png"),
+            Pokemon("Charmander","https://cdn.traction.one/pokedex/pokemon/4.png"),
             Pokemon("Charmeleon","https://cdn.traction.one/pokedex/pokemon/5.png")
             )
         adapter.updateListPokemon(pokemons)

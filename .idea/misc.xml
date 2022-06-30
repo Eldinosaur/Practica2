@@ -3,6 +3,7 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/appWeb/Practica2/app/src/main/res/drawable/scrollbar.xml" value="0.1945" />
         <entry key="..\:/appWeb/Practica2/app/src/main/res/layout/activity_main.xml" value="0.17760416666666667" />
         <entry key="..\:/appWeb/Practica2/app/src/main/res/layout/item_pokedex.xml" value="0.1573321932449765" />
       </map>

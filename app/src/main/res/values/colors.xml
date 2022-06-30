@@ -9,4 +9,5 @@
     <color name="white">#FFFFFFFF</color>
     <color name="fondo_item">#424242</color>
     <color name="background_main">#2B292B</color>
+    <color name="scrollbar">#FF5722</color>
 </resources>
