@@ -29,7 +29,7 @@ class PokemonAdapter constructor(var pokemons: List<Pokemon> = listOf()) : Recyc
 
     fun updateListPokemon(pokemons: List<Pokemon>){
         this.pokemons = pokemons
-        //notifyDataSetChanged()
+        notifyDataSetChanged()
     }
 
     //presentarle la vista con la cual va a trabajar (item_pokedex)

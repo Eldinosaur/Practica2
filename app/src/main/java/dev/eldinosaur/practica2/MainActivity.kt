@@ -3,6 +3,8 @@ package dev.eldinosaur.practica2
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.text.Editable
+import android.text.TextWatcher
 import dev.eldinosaur.practica2.databinding.ActivityMainBinding
 
 class MainActivity : AppCompatActivity() {
@@ -26,8 +28,28 @@ class MainActivity : AppCompatActivity() {
         events()
     }
 
-    private fun events() {
+    private fun events()= with(binding) {
+//buscador
+        edtBuscar.addTextChangedListener(object: TextWatcher{
+            override fun beforeTextChanged(p0: CharSequence?, p1: Int, p2: Int, p3: Int) {
 
+            }
+
+            override fun onTextChanged(filterText: CharSequence?, p1: Int, p2: Int, p3: Int) {
+                if(filterText?.length!! >0){
+                    val filterListPokemon= pokemons.filter {
+                            pokemon->  pokemon.nombre.uppercase().contains(filterText.toString().uppercase())
+                    }
+                    adapter.updateListPokemon(filterListPokemon)
+                }else{
+                    loadData()
+                }
+            }
+
+            override fun afterTextChanged(p0: Editable?) {
+
+            }
+        })
     }
 
     private fun loadData() {
